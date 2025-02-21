@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 #app set up
-st.set_page_config(page_title="Data sweeper", layout="wide")
+st.set_page_config(page_title="Data Converter", layout="wide")
 st.title("Data sweeper")
 st.write("Transform your files between CVS and Excel format with built in data cleaning and visualization!")
 uploaded_files = st.file_uploader("upload your files (CVS or Excel):", type=["csv", "xlsx"],
