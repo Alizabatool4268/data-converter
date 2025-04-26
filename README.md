@@ -21,3 +21,28 @@ Choose specific sheets or columns when dealing with XLSX files.
 Downloadable Output: Instantly download the converted file after processing.
 
 Fast and Lightweight: Thanks to Streamlit, the app loads quickly and offers a smooth user experience.
+
+# Tech Stack
+### Python
+1- Acts as the backbone of the application.
+
+2- Handles file reading, data processing, conversion logic, and error handling.
+
+### Streamlit
+1- Provides a fast, interactive web interface for users.
+
+2- Manages file uploads, displays data previews, offers plotting capabilities, and enables downloadable results.
+
+3- Allows for real-time feedback during the conversion process.
+
+### Pandas
+1- Processes the data structures (CSV/XLSX).
+
+2- Handles data cleaning (e.g., removing duplicates).
+
+3- Supports quick and efficient manipulation of large datasets.
+
+### Openpyxl
+1-Specifically used for working with XLSX files.
+
+2-Reads, writes, and modifies Excel files while preserving formatting and complex features.
